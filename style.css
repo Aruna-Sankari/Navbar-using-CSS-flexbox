@@ -1,0 +1,51 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:verdana;
+}
+header{
+background-color:black;
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:13px 10px;
+}
+.logo{
+color:white;
+font-weight:400;
+}
+.navlist{
+	display:flex;
+	list-style-type:none;
+}
+.navlist li{
+	padding:20px;
+}
+.navlist li a{
+	text-decoration:none;
+	color:white;
+	transition:.2s linear;
+}
+.navlist li a:hover{
+	color:orangered;
+}
+button{
+	color:black;
+	padding:10px 15px;
+	background-color:salmon;
+	border-radius:25px;
+	border:none;
+	transition:0.8s ease;
+	font-weight:500;
+	font-size:14px;
+}
+button:hover{
+	opacity:0.8;
+	background-color:salmon;
+
+	
+}
+
+	
+	
